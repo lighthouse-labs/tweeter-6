@@ -1,0 +1,31 @@
+<div class="header">
+  <h1>Header</h1>
+  <p>My supercool header</p>
+</div>
+.header{
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  background-color: #570040;
+  background-image: url(http://www.transparenttextures.com/patterns/always-grey.png);
+};
+<header>
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
